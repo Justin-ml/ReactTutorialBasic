@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo {
+  width: 30px;
+}
+body {
+  background-color: #757575;
+  background-image: url(./images/main-backgroundlogo.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 200px;
+  background-position-y: 250px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 25px;
+  height: 90px;
+  background-color: black;
+  color: aqua;
+  align-items: center;
+}
+
+.nav-logotext {
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.nav-rightheader {
+  color: white;
+  font-weight: 600;
+}
+
+.main-header {
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 40px 0 20px 30px;
+  color: aliceblue;
+  letter-spacing: -0.04em;
+}
+.main-list {
+  font-weight: 600;
+  padding: 25px 0 0 75px;
+  color: aliceblue;
+  line-height: 2.1em;
+}
+
+::marker{
+  color: aqua;
+  font-size: 1.5em;
+}
